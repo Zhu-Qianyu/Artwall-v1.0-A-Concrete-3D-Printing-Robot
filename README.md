@@ -2,85 +2,85 @@
 
 # 🏗️ Artwall v1.0
 
-## 筑墙智匠 · 混凝土 3D 打印建筑智能机器人
+## Intelligent Concrete 3D Printing Construction Robot
 
 <br>
 
-[![RoboCup](https://img.shields.io/badge/RoboCup_2024-国家级一等奖-gold?style=for-the-badge&logo=robotframework&logoColor=white)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
-[![SLAM](https://img.shields.io/badge/导航-SLAM_自主定位-0969da?style=for-the-badge)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
-[![Vision AI](https://img.shields.io/badge/控制-视觉AI_双模式-7c3aed?style=for-the-badge)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
-[![WHUT](https://img.shields.io/badge/武汉理工大学-尹海斌教授指导-c41e3a?style=for-the-badge)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
+[![RoboCup](https://img.shields.io/badge/RoboCup_2024-National_First_Prize-gold?style=for-the-badge&logo=robotframework&logoColor=white)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
+[![ICAN](https://img.shields.io/badge/ICAN-National_Third_Prize-silver?style=for-the-badge)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
+[![SLAM](https://img.shields.io/badge/Navigation-SLAM-0969da?style=for-the-badge)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
+[![Vision AI](https://img.shields.io/badge/Control-Dual_Vision_AI-7c3aed?style=for-the-badge)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
+[![WHUT](https://img.shields.io/badge/WHUT-Prof._Yin_Haibin-c41e3a?style=for-the-badge)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
 
 <br>
 
-**无龙门 · 无导轨 · 无固定基座**
+**No Gantry · No Rails · No Fixed Base**
 
-用 **SLAM 自主导航** + **视觉 AI** 重新定义高层建筑内的艺术墙体建造方式
-
-<br>
-
-[📄 商业计划书](./BP.pdf) &nbsp;·&nbsp; [🎬 运动仿真](#-运动仿真) &nbsp;·&nbsp; [🔧 装配纪实](#-装配纪实) &nbsp;·&nbsp; [🏆 打印成果](#-打印成果)
+Redefining artistic wall construction in high-rise interiors with **SLAM autonomous navigation** + **Vision AI**
 
 <br>
 
-<img src="合影.jpg" alt="Artwall 团队合影" width="88%">
+[📄 Business Plan](./BP.pdf) &nbsp;·&nbsp; [🎬 Motion Simulation](#-motion-simulation) &nbsp;·&nbsp; [🔧 Assembly](#-assembly) &nbsp;·&nbsp; [🏆 Print Results](#-print-results)
 
 <br>
-<sub><i>武汉理工大学 Artwall 团队 · 尹海斌教授指导</i></sub>
+
+<img src="合影.jpg" alt="Artwall team photo" width="88%">
+
+<br>
+<sub><i>Wuhan University of Technology Artwall Team · Supervised by Prof. Yin Haibin</i></sub>
 
 </div>
 
 <br>
 
-## ✨ 一句话介绍
+## ✨ Overview
 
-> **Artwall** 是一款可进出电梯、在高层室内自由行走的 3D 打印建筑机器人。  
-> 它抛弃传统大型龙门与固定轨道，以 **SLAM + 机器视觉** 实现自主定位与分段施工，  
-> 让曲面、镂空、异形艺术墙体的建造，从「图纸上的想象」变成「现场可打印的现实」。
+> **Artwall** is a mobile 3D printing construction robot that fits inside elevators and moves freely across high-rise indoor environments.  
+> By replacing bulky gantries and fixed tracks with **SLAM + machine vision**, it enables segmented on-site construction of large-scale architectural structures — turning curved, perforated, and free-form artistic walls from design concepts into printable reality.
 
 <br>
 
-## 📊 核心数据一览
+## 📊 Key Specifications
 
 <table align="center">
 <tr>
 <td align="center" width="20%">
 <h2>284 kg</h2>
-<b>整机重量</b><br>
-<sub>可进出标准电梯</sub>
+<b>Total Weight</b><br>
+<sub>Fits standard elevators</sub>
 </td>
 <td align="center" width="20%">
 <h2>600×800<br>×1800 mm</h2>
-<b>折叠尺寸</b><br>
-<sub>适配常规门洞通行</sub>
+<b>Folded Size</b><br>
+<sub>Passes through standard doorways</sub>
 </td>
 <td align="center" width="20%">
 <h2>±2 mm</h2>
-<b>重复定位精度</b><br>
-<sub>微米级运动控制</sub>
+<b>Repeatability</b><br>
+<sub>Precision motion control</sub>
 </td>
 <td align="center" width="20%">
 <h2>≈3 m²/h</h2>
-<b>建造效率</b><br>
-<sub>较人工提升 3–5 倍</sub>
+<b>Build Rate</b><br>
+<sub>3–5× faster than manual work</sub>
 </td>
 <td align="center" width="20%">
-<h2>≈85 元/m²</h2>
-<b>综合造价</b><br>
-<sub>传统砌筑约 200 元/m²</sub>
+<h2>≈85 ¥/m²</h2>
+<b>Unit Cost</b><br>
+<sub>vs. ~200 ¥/m² manual masonry</sub>
 </td>
 </tr>
 </table>
 
 <br>
 
-## 🧭 目录
+## 🧭 Contents
 
 | | | |
 |:---:|:---:|:---:|
-| [💡 为何需要 Artwall](#-为何需要-artwall) | [⚙️ 双运行模式](#️-双运行模式) | [🏛️ 系统架构](#️-系统架构) |
-| [🎥 视觉展示](#-视觉展示) | [🌐 应用场景](#-应用场景) | [🏅 荣誉与专利](#-荣誉与专利) |
-| [🤝 合作平台](#-合作平台) | | |
+| [💡 Why Artwall](#-why-artwall) | [⚙️ Dual Operation Modes](#️-dual-operation-modes) | [🏛️ System Architecture](#️-system-architecture) |
+| [🎥 Gallery](#-gallery) | [🌐 Applications](#-applications) | [🏅 Awards & IP](#-awards--ip) |
+| [🤝 Partners](#-partners) | | |
 
 <br>
 
@@ -88,28 +88,28 @@
 
 <br>
 
-## 💡 为何需要 Artwall
+## 💡 Why Artwall
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 😣 行业痛点
+### 😣 Industry Pain Points
 
-- 建筑工人 **老龄化**，熟练工缺口持续扩大
-- 传统人工砌筑 **0.1–0.5 m²/h**，工期长、成本高
-- 大型 3D 打印设备 **无法进入电梯**，约 **70%** 室内需求被迫放弃
-- 曲面 / 镂空 / 异形设计 **难以落地**，设计自由度严重受限
+- **Aging workforce** — skilled labor shortage keeps growing
+- Manual masonry at only **0.1–0.5 m²/h** — slow and costly
+- Large 3D printers **cannot enter elevators** — ~**70%** of indoor jobs fall back to traditional methods
+- Curved / perforated / free-form designs **hard to build** on site
 
 </td>
 <td width="50%" valign="top">
 
-### ✨ Artwall 的回答
+### ✨ The Artwall Answer
 
-- 🏢 **可上楼** — 折叠便携，高层室内无障碍通行
-- ⚡ **高效率** — 自动化打印，单日极限约 **42 m²** 隔断墙
-- 🎨 **高自由度** — 艺术墙体、景观花坛、异形构件一站完成
-- 🌱 **更绿色** — 特种混凝土 + 一体化成型，材料利用率 **> 95%**
+- 🏢 **Elevator-ready** — compact foldable design for high-rise indoor access
+- ⚡ **High throughput** — up to **42 m²** of partition walls per day
+- 🎨 **Design freedom** — artistic walls, planters, and custom geometries
+- 🌱 **Greener build** — specialty concrete + monolithic printing, **> 95%** material utilization
 
 </td>
 </tr>
@@ -117,17 +117,17 @@
 
 <br>
 
-## ⚙️ 双运行模式
+## ⚙️ Dual Operation Modes
 
 <div align="center">
 
 ```mermaid
 flowchart LR
-    A["🎨 艺术定制场景"] --> B["预建模 · 视觉定位打印"]
-    C["🏢 批量隔断场景"] --> D["预路径 · 视觉自动建模"]
+    A["🎨 Custom Art Walls"] --> B["Pre-model · Vision-guided Printing"]
+    C["🏢 Batch Partitions"] --> D["Pre-path · Vision Auto-modeling"]
 
-    B --> B1["模型导入"] --> B2["一键切片"] --> B3["粉笔标定"] --> B4["YOLO 识别"] --> B5["轨迹打印"]
-    D --> D1["地面导引"] --> D2["标志识别"] --> D3["首层循迹"] --> D4["自动建模"] --> D5["逐层复现"]
+    B --> B1["Import Model"] --> B2["One-click Slice"] --> B3["Chalk Calibration"] --> B4["YOLO Detection"] --> B5["Path Print"]
+    D --> D1["Floor Guidance"] --> D2["Marker Recognition"] --> D3["First-layer Trace"] --> D4["Auto Modeling"] --> D5["Layer Replication"]
 
     style B fill:#dbeafe,stroke:#2563eb
     style D fill:#ede9fe,stroke:#7c3aed
@@ -137,36 +137,36 @@ flowchart LR
 
 <table align="center">
 <tr>
-<th width="18%">模式</th>
-<th width="22%">适用场景</th>
-<th width="60%">技术路径</th>
+<th width="18%">Mode</th>
+<th width="22%">Use Case</th>
+<th width="60%">Workflow</th>
 </tr>
 <tr>
-<td align="center"><b>🎨 预建模<br>视觉定位</b></td>
-<td align="center">个性化艺术墙体<br>复杂曲面 / 镂空造型</td>
-<td>设计师模型 → 一键切片 → 地面粉笔标定 → <b>YOLO</b> 视觉识别 → 坐标对齐 → 精准轨迹打印</td>
+<td align="center"><b>🎨 Pre-model<br>Vision-guided</b></td>
+<td align="center">Custom artistic walls<br>Complex curves / perforations</td>
+<td>Design model → one-click slicing → floor chalk calibration → <b>YOLO</b> vision → coordinate alignment → precision path printing</td>
 </tr>
 <tr>
-<td align="center"><b>🏗️ 预路径<br>自动建模</b></td>
-<td align="center">高层平直隔断墙<br>批量重复施工</td>
-<td>粉笔导引 → 箭头标志识别 → 首层循迹打印 → 数据记录 → 自动建模 → 逐层复现</td>
+<td align="center"><b>🏗️ Pre-path<br>Auto-modeling</b></td>
+<td align="center">Straight partition walls<br>High-rise batch construction</td>
+<td>Chalk guidance → arrow/marker recognition → first-layer trace print → data logging → auto modeling → layer-by-layer replication</td>
 </tr>
 </table>
 
 <br>
 
-## 🏛️ 系统架构
+## 🏛️ System Architecture
 
 <div align="center">
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║                    🏗️  筑墙智匠  Artwall v1.0                ║
+║                      🏗️  Artwall v1.0                        ║
 ╠════════════╦════════════╦════════════╦══════════════════════╣
-║  🚜 履带   ║  ⬆️ 二级   ║  🦾 三节   ║  🖨️ 双料打印头       ║
-║  移动底盘  ║  升降装置  ║  机械臂    ║  结构层 + 泡沫填充   ║
+║  🚜 Tracked ║  ⬆️ Two-   ║  🦾 3-DOF  ║  🖨️ Dual-material   ║
+║  Chassis    ║  stage Lift║  Robot Arm ║  Print Head          ║
 ╠════════════╩════════════╩════════════╩══════════════════════╣
-║   👁️ 视觉模块  ·  🗺️ SLAM 导航  ·  📐 轨迹规划  ·  ⚡ 关节驱动   ║
+║  👁️ Vision · 🗺️ SLAM · 📐 Path Planning · ⚡ Joint Control    ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
@@ -174,24 +174,24 @@ flowchart LR
 
 <table align="center">
 <tr>
-<th>模块</th>
-<th>关键参数 / 特点</th>
+<th>Module</th>
+<th>Highlights</th>
 </tr>
 <tr>
-<td align="center"><b>🚜 移动底盘</b></td>
-<td>橡胶履带 · 几字形碳钢底板 · 高度 300 mm · 可沉降打印近地面墙体</td>
+<td align="center"><b>🚜 Mobile Chassis</b></td>
+<td>Rubber tracks · steel base frame · 300 mm height · deployable for near-ground printing</td>
 </tr>
 <tr>
-<td align="center"><b>⬆️ 升降装置</b></td>
-<td>工作高度 1800–3000 mm · G3 伺服电机 · 滚珠丝杠 + 同步带传动</td>
+<td align="center"><b>⬆️ Lifting System</b></td>
+<td>Working height 1800–3000 mm · G3 servo motors · ball screw + belt drive</td>
 </tr>
 <tr>
-<td align="center"><b>🦾 机械臂</b></td>
-<td>三节折叠结构 · 交叉滚子轴承 · 整臂质量 33.8 kg · 高负载高精度</td>
+<td align="center"><b>🦾 Robot Arm</b></td>
+<td>3-segment foldable arm · cross-roller bearings · 33.8 kg arm mass · high load & precision</td>
 </tr>
 <tr>
-<td align="center"><b>🖨️ 打印头</b></td>
-<td>顶出 / 侧向双模式挤出 · 发泡水泥灌填 · V 型加强筋中空结构</td>
+<td align="center"><b>🖨️ Print Head</b></td>
+<td>Top / side extrusion modes · foam concrete infill · V-rib hollow structure</td>
 </tr>
 </table>
 
@@ -201,36 +201,36 @@ flowchart LR
 
 <br>
 
-## 🎥 视觉展示
+## 🎥 Gallery
 
-### 🎬 运动仿真
+### 🎬 Motion Simulation
 
 <div align="center">
 
 <video src="运动仿真.mp4" controls width="92%">
-  <a href="运动仿真.mp4">▶ 点击下载运动仿真视频</a>
+  <a href="运动仿真.mp4">▶ Download motion simulation video</a>
 </video>
 
 <br>
-<sub>整机运动学仿真 · 多关节协同轨迹验证</sub>
+<sub>Full-machine kinematic simulation · multi-joint trajectory validation</sub>
 
 </div>
 
 <br>
 
-### 🔬 有限元结构仿真
+### 🔬 FEA Structural Simulation
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center"><img src="仿真1.png" width="260"><br><sub>仿真 ①</sub></td>
-<td align="center"><img src="仿真2.png" width="260"><br><sub>仿真 ②</sub></td>
-<td align="center"><img src="仿真3.png" width="260"><br><sub>仿真 ③</sub></td>
+<td align="center"><img src="仿真1.png" width="260"><br><sub>Sim ①</sub></td>
+<td align="center"><img src="仿真2.png" width="260"><br><sub>Sim ②</sub></td>
+<td align="center"><img src="仿真3.png" width="260"><br><sub>Sim ③</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="仿真4.png" width="260"><br><sub>仿真 ④</sub></td>
-<td align="center"><img src="仿真5.png" width="260"><br><sub>仿真 ⑤</sub></td>
+<td align="center"><img src="仿真4.png" width="260"><br><sub>Sim ④</sub></td>
+<td align="center"><img src="仿真5.png" width="260"><br><sub>Sim ⑤</sub></td>
 <td align="center"></td>
 </tr>
 </table>
@@ -239,19 +239,19 @@ flowchart LR
 
 <br>
 
-### ⚙️ 整机与部件拆解动画
+### ⚙️ Assembly & Component Animations
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="33%"><img src="总装配%2000_00_00-00_00_30.gif" width="100%"><br><b>总装配</b></td>
-<td align="center" width="33%"><img src="底盘%2000_00_00-00_00_30.gif" width="100%"><br><b>移动底盘</b></td>
-<td align="center" width="33%"><img src="升降%2000_00_00-00_00_30.gif" width="100%"><br><b>升降装置</b></td>
+<td align="center" width="33%"><img src="总装配%2000_00_00-00_00_30.gif" width="100%"><br><b>Full Assembly</b></td>
+<td align="center" width="33%"><img src="底盘%2000_00_00-00_00_30.gif" width="100%"><br><b>Mobile Chassis</b></td>
+<td align="center" width="33%"><img src="升降%2000_00_00-00_00_30.gif" width="100%"><br><b>Lifting System</b></td>
 </tr>
 <tr>
-<td align="center"><img src="机械臂%2000_00_00-00_00_30.gif" width="100%"><br><b>三节机械臂</b></td>
-<td align="center"><img src="打印头%2000_00_00-00_00_30.gif" width="100%"><br><b>打印头</b></td>
+<td align="center"><img src="机械臂%2000_00_00-00_00_30.gif" width="100%"><br><b>3-DOF Arm</b></td>
+<td align="center"><img src="打印头%2000_00_00-00_00_30.gif" width="100%"><br><b>Print Head</b></td>
 <td align="center"></td>
 </tr>
 </table>
@@ -260,17 +260,17 @@ flowchart LR
 
 <br>
 
-### 🧠 算法与控制演示
+### 🧠 Algorithm & Control
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="50%"><img src="轨迹规划.gif" width="95%"><br><b>📐 轨迹规划</b></td>
-<td align="center" width="50%"><img src="打印调试.gif" width="95%"><br><b>🖨️ 打印调试</b></td>
+<td align="center" width="50%"><img src="轨迹规划.gif" width="95%"><br><b>📐 Path Planning</b></td>
+<td align="center" width="50%"><img src="打印调试.gif" width="95%"><br><b>🖨️ Print Debugging</b></td>
 </tr>
 <tr>
-<td align="center" colspan="2"><img src="关节运控调试.gif" width="95%"><br><b>⚡ 关节运控调试</b></td>
+<td align="center" colspan="2"><img src="关节运控调试.gif" width="95%"><br><b>⚡ Joint Motion Control</b></td>
 </tr>
 </table>
 
@@ -278,7 +278,7 @@ flowchart LR
 
 <br>
 
-### 🔧 装配纪实
+### 🔧 Assembly
 
 <div align="center">
 
@@ -301,15 +301,15 @@ flowchart LR
 
 <br>
 
-### 🏆 打印成果
+### 🏆 Print Results
 
 <div align="center">
 
-<img src="打印成品-whut武汉理工大学缩写.jpg" alt="打印成品" width="88%">
+<img src="打印成品-whut武汉理工大学缩写.jpg" alt="Print results at WHUT" width="88%">
 
 <br>
 
-<i>从模型到实体 · 混凝土 3D 打印艺术构件落地验证</i>
+<i>From digital model to physical artifact · on-site validation of 3D-printed concrete art components</i>
 
 </div>
 
@@ -319,63 +319,63 @@ flowchart LR
 
 <br>
 
-## 🌐 应用场景
+## 🌐 Applications
 
 <table align="center">
 <tr>
 <td align="center" width="25%">
-<h3>🏠 第四代住宅</h3>
-空中庭院镂空隔断<br>曲面花坛 · 生态绿化墙
+<h3>🏠 Fourth-gen Housing</h3>
+Sky-garden partitions<br>Curved planters · green walls
 </td>
 <td align="center" width="25%">
-<h3>🏬 商业综合体</h3>
-商超空中花园<br>主题背景墙 · 异形展示墙
+<h3>🏬 Commercial Spaces</h3>
+Rooftop gardens<br>Feature walls · display structures
 </td>
 <td align="center" width="25%">
-<h3>🌿 园林景观</h3>
-个性化花坛<br>艺术围墙 · 景观构件
+<h3>🌿 Landscape</h3>
+Custom planters<br>Art walls · landscape elements
 </td>
 <td align="center" width="25%">
-<h3>🔧 二次装修</h3>
-高层室内非承重墙<br>快速建造 · 低扰施工
+<h3>🔧 Renovation</h3>
+Non-load-bearing partitions<br>Fast build · low disruption
 </td>
 </tr>
 </table>
 
 <br>
 
-## 🏅 荣誉与专利
+## 🏅 Awards & IP
 
 <div align="center">
 
-| 🥇 竞赛荣誉 | 📜 知识产权 | 🤝 企业验证 |
+| 🥇 Competition Awards | 📜 Intellectual Property | 🤝 Industry Validation |
 |:---:|:---:|:---:|
-| **2024 RoboCup 中国机器人大赛**<br>🏆 国家级一等奖 · 央视报道 | 3 项实用新型专利<br>5 项发明专利 · 2 项软著（受理中） | 中建三局科创 · 成都建工预筑科技<br>技术验证 · 高度评价 |
+| **RoboCup China 2024** — National First Prize (CCTV coverage)<br>**ICAN Entrepreneurship Competition** — National Third Prize | 3 utility model patents<br>5 invention patents · 2 software copyrights (pending) | CSCEC 3B Sci-Tech Innovation · Chengdu Jian Gong Yuzhu Tech<br>Technical validation & strong endorsement |
 
 </div>
 
 <br>
 
-## 🤝 合作平台
+## 🤝 Partners
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🔬 研发依托**
+**🔬 R&D Platforms**
 
-- 武汉理工大学机电学院 · 湖北省数字制造实验室
-- 理工—中建三局科创校企联合实验室
-- 硅酸盐国家重点实验室 · 理工孵化器
+- WHUT School of Mech. & Elec. Eng. · Hubei Digital Manufacturing Lab
+- WHUT–CSCEC 3B Sci-Tech Innovation Joint Lab
+- State Key Lab of Silicate Materials · WHUT Incubator
 
 </td>
 <td width="50%" valign="top">
 
-**🏢 产业合作**
+**🏢 Industry Partners**
 
-- 成都建工预筑科技 · 中国建筑第三工程局
-- 河南土森建筑工程 · 武汉澳华 / 嘉禾装饰
-- 武汉景域园林景观设计工程 等
+- Chengdu Jian Gong Yuzhu Technology · China Construction Third Engineering Bureau
+- Henan Tusen Construction · Wuhan Aohua / Jiahe Decoration
+- Wuhan Jingyu Landscape Design, and more
 
 </td>
 </tr>
@@ -387,7 +387,7 @@ flowchart LR
 
 <br>
 
-## 📚 引用
+## 📚 Citation
 
 ```bibtex
 @misc{artwall2025,
@@ -402,7 +402,7 @@ flowchart LR
 
 ## 📄 License
 
-本项目媒体与文档仅供 **学术交流与展示**。商业使用请联系项目团队。
+Media and documentation in this repository are for **academic exchange and demonstration** only. For commercial use, please contact the project team.
 
 <br>
 
@@ -412,16 +412,16 @@ flowchart LR
 
 <br>
 
-### 🏗️ Artwall · 筑墙智匠
+### 🏗️ Artwall
 
-**SLAM + 3D 打印 + 视觉 AI**
+**SLAM + 3D Printing + Vision AI**
 
-*释放建筑艺术的无限可能*
+*Unlocking unlimited possibilities for architectural art*
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-查看仓库-181717?style=flat-square&logo=github)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
-[![BP](https://img.shields.io/badge/📄-商业计划书_PDF-blue?style=flat-square)](./BP.pdf)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repository-181717?style=flat-square&logo=github)](https://github.com/Zhu-Qianyu/Artwall-v1.0-A-Concrete-3D-Printing-Robot)
+[![BP](https://img.shields.io/badge/📄-Business_Plan_PDF-blue?style=flat-square)](./BP.pdf)
 
 <br>
 <sub>Made with ❤️ by WHUT Artwall Team · 2024–2025</sub>
