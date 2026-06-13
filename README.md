@@ -24,7 +24,7 @@ Redefining artistic wall construction in high-rise interiors with **SLAM autonom
 
 <br>
 
-<img src="合影.jpg" alt="Artwall team photo" width="88%">
+<img src="assets/team/合影.jpg" alt="Artwall team photo" width="88%">
 
 <br>
 <sub><i>Wuhan University of Technology Artwall Team · Supervised by Prof. Yin Haibin</i></sub>
@@ -207,8 +207,8 @@ flowchart LR
 
 <div align="center">
 
-<video src="运动仿真.mp4" controls width="92%">
-  <a href="运动仿真.mp4">▶ Download motion simulation video</a>
+<video src="assets/video/运动仿真.mp4" controls width="92%">
+  <a href="assets/video/运动仿真.mp4">▶ Download motion simulation video</a>
 </video>
 
 <br>
@@ -224,13 +224,13 @@ flowchart LR
 
 <table>
 <tr>
-<td align="center"><img src="仿真1.png" width="260"><br><sub>Sim ①</sub></td>
-<td align="center"><img src="仿真2.png" width="260"><br><sub>Sim ②</sub></td>
-<td align="center"><img src="仿真3.png" width="260"><br><sub>Sim ③</sub></td>
+<td align="center"><img src="assets/fea/仿真1.png" width="260"><br><sub>Sim ①</sub></td>
+<td align="center"><img src="assets/fea/仿真2.png" width="260"><br><sub>Sim ②</sub></td>
+<td align="center"><img src="assets/fea/仿真3.png" width="260"><br><sub>Sim ③</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="仿真4.png" width="260"><br><sub>Sim ④</sub></td>
-<td align="center"><img src="仿真5.png" width="260"><br><sub>Sim ⑤</sub></td>
+<td align="center"><img src="assets/fea/仿真4.png" width="260"><br><sub>Sim ④</sub></td>
+<td align="center"><img src="assets/fea/仿真5.png" width="260"><br><sub>Sim ⑤</sub></td>
 <td align="center"></td>
 </tr>
 </table>
@@ -245,13 +245,13 @@ flowchart LR
 
 <table>
 <tr>
-<td align="center" width="33%"><img src="总装配%2000_00_00-00_00_30.gif" width="100%"><br><b>Full Assembly</b></td>
-<td align="center" width="33%"><img src="底盘%2000_00_00-00_00_30.gif" width="100%"><br><b>Mobile Chassis</b></td>
-<td align="center" width="33%"><img src="升降%2000_00_00-00_00_30.gif" width="100%"><br><b>Lifting System</b></td>
+<td align="center" width="33%"><img src="assets/components/总装配%2000_00_00-00_00_30.gif" width="100%"><br><b>Full Assembly</b></td>
+<td align="center" width="33%"><img src="assets/components/底盘%2000_00_00-00_00_30.gif" width="100%"><br><b>Mobile Chassis</b></td>
+<td align="center" width="33%"><img src="assets/components/升降%2000_00_00-00_00_30.gif" width="100%"><br><b>Lifting System</b></td>
 </tr>
 <tr>
-<td align="center"><img src="机械臂%2000_00_00-00_00_30.gif" width="100%"><br><b>3-DOF Arm</b></td>
-<td align="center"><img src="打印头%2000_00_00-00_00_30.gif" width="100%"><br><b>Print Head</b></td>
+<td align="center"><img src="assets/components/机械臂%2000_00_00-00_00_30.gif" width="100%"><br><b>3-DOF Arm</b></td>
+<td align="center"><img src="assets/components/打印头%2000_00_00-00_00_30.gif" width="100%"><br><b>Print Head</b></td>
 <td align="center"></td>
 </tr>
 </table>
@@ -266,11 +266,11 @@ flowchart LR
 
 <table>
 <tr>
-<td align="center" width="50%"><img src="轨迹规划.gif" width="95%"><br><b>📐 Path Planning</b></td>
-<td align="center" width="50%"><img src="打印调试.gif" width="95%"><br><b>🖨️ Print Debugging</b></td>
+<td align="center" width="50%"><img src="assets/control/轨迹规划.gif" width="95%"><br><b>📐 Path Planning</b></td>
+<td align="center" width="50%"><img src="assets/control/打印调试.gif" width="95%"><br><b>🖨️ Print Debugging</b></td>
 </tr>
 <tr>
-<td align="center" colspan="2"><img src="关节运控调试.gif" width="95%"><br><b>⚡ Joint Motion Control</b></td>
+<td align="center" colspan="2"><img src="assets/control/关节运控调试.gif" width="95%"><br><b>⚡ Joint Motion Control</b></td>
 </tr>
 </table>
 
@@ -284,15 +284,15 @@ flowchart LR
 
 <table>
 <tr>
-<td align="center"><img src="装配过程1.jpg" width="180"><br><sub>Step 01</sub></td>
-<td align="center"><img src="装配过程2.jpg" width="180"><br><sub>Step 02</sub></td>
-<td align="center"><img src="装配过程3.jpg" width="180"><br><sub>Step 03</sub></td>
-<td align="center"><img src="装配过程4.jpg" width="180"><br><sub>Step 04</sub></td>
+<td align="center"><img src="assets/assembly/装配过程1.jpg" width="180"><br><sub>Step 01</sub></td>
+<td align="center"><img src="assets/assembly/装配过程2.jpg" width="180"><br><sub>Step 02</sub></td>
+<td align="center"><img src="assets/assembly/装配过程3.jpg" width="180"><br><sub>Step 03</sub></td>
+<td align="center"><img src="assets/assembly/装配过程4.jpg" width="180"><br><sub>Step 04</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="装配过程5.jpg" width="180"><br><sub>Step 05</sub></td>
-<td align="center"><img src="装配过程6.jpg" width="180"><br><sub>Step 06</sub></td>
-<td align="center"><img src="装配过程7.jpg" width="180"><br><sub>Step 07</sub></td>
+<td align="center"><img src="assets/assembly/装配过程5.jpg" width="180"><br><sub>Step 05</sub></td>
+<td align="center"><img src="assets/assembly/装配过程6.jpg" width="180"><br><sub>Step 06</sub></td>
+<td align="center"><img src="assets/assembly/装配过程7.jpg" width="180"><br><sub>Step 07</sub></td>
 <td align="center"></td>
 </tr>
 </table>
@@ -305,7 +305,7 @@ flowchart LR
 
 <div align="center">
 
-<img src="打印成品-whut武汉理工大学缩写.jpg" alt="Print results at WHUT" width="88%">
+<img src="assets/results/打印成品-whut武汉理工大学缩写.jpg" alt="Print results at WHUT" width="88%">
 
 <br>
 
