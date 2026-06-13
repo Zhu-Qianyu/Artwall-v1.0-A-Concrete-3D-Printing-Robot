@@ -23,10 +23,10 @@
 
 <br>
 
-<img src="打印成品-whut武汉理工大学缩写.jpg" alt="武汉理工大学实地打印成果" width="88%">
+<img src="合影.jpg" alt="Artwall 团队合影" width="88%">
 
 <br>
-<sub><i>武汉理工大学军山校区 · 艺术墙体 / 景观花坛实地打印成果</i></sub>
+<sub><i>武汉理工大学 Artwall 团队 · 尹海斌教授指导</i></sub>
 
 </div>
 
@@ -79,8 +79,8 @@
 | | | |
 |:---:|:---:|:---:|
 | [💡 为何需要 Artwall](#-为何需要-artwall) | [⚙️ 双运行模式](#️-双运行模式) | [🏛️ 系统架构](#️-系统架构) |
-| [📈 竞品对比](#-竞品对比) | [🎥 视觉展示](#-视觉展示) | [🌐 应用场景](#-应用场景) |
-| [🏅 荣誉与专利](#-荣誉与专利) | [🤝 合作平台](#-合作平台) | [👥 团队](#-团队) |
+| [🎥 视觉展示](#-视觉展示) | [🌐 应用场景](#-应用场景) | [🏅 荣誉与专利](#-荣誉与专利) |
+| [🤝 合作平台](#-合作平台) | [👥 团队](#-团队) | |
 
 <br>
 
@@ -197,55 +197,6 @@ flowchart LR
 
 <br>
 
-## 📈 竞品对比
-
-<table align="center">
-<tr>
-<th>指标</th>
-<th>👷 人工砌筑</th>
-<th>🏭 固定式大型 3D 打印</th>
-<th>🏗️ <b>Artwall v1.0</b></th>
-</tr>
-<tr>
-<td align="center"><b>施工效率</b></td>
-<td align="center">0.1–0.5 m²/h</td>
-<td align="center">2–5 m²/h</td>
-<td align="center">✅ <b>≈ 3 m²/h</b></td>
-</tr>
-<tr>
-<td align="center"><b>重复定位</b></td>
-<td align="center">±2–5 mm</td>
-<td align="center">±0.5–1 mm</td>
-<td align="center">✅ <b>±2 mm</b></td>
-</tr>
-<tr>
-<td align="center"><b>自移动能力</b></td>
-<td align="center">—</td>
-<td align="center">部分可移动</td>
-<td align="center">✅ <b>履带 + SLAM</b></td>
-</tr>
-<tr>
-<td align="center"><b>高层室内通行</b></td>
-<td align="center">✅</td>
-<td align="center">❌</td>
-<td align="center">✅ <b>可进电梯</b></td>
-</tr>
-<tr>
-<td align="center"><b>复杂曲面 / 镂空</b></td>
-<td align="center">❌ 极难</td>
-<td align="center">✅ 支持</td>
-<td align="center">✅ <b>支持</b></td>
-</tr>
-<tr>
-<td align="center"><b>综合造价</b></td>
-<td align="center">≈ 200 元/m²</td>
-<td align="center">—</td>
-<td align="center">✅ <b>≈ 85 元/m²</b></td>
-</tr>
-</table>
-
-<br>
-
 ---
 
 <br>
@@ -342,7 +293,7 @@ flowchart LR
 <td align="center"><img src="装配过程5.jpg" width="180"><br><sub>Step 05</sub></td>
 <td align="center"><img src="装配过程6.jpg" width="180"><br><sub>Step 06</sub></td>
 <td align="center"><img src="装配过程7.jpg" width="180"><br><sub>Step 07</sub></td>
-<td align="center"><img src="合影.jpg" width="180"><br><sub>团队合影</sub></td>
+<td align="center"></td>
 </tr>
 </table>
 
