@@ -20,7 +20,7 @@ Redefining artistic wall construction in high-rise interiors with **SLAM autonom
 
 <br>
 
-[📄 Business Plan](./BP.pdf) &nbsp;·&nbsp; [🎬 Motion Simulation](#-motion-simulation) &nbsp;·&nbsp; [🔧 Assembly](#-assembly) &nbsp;·&nbsp; [🏆 Print Results](#-print-results)
+[📄 Business Plan](./BP.pdf) &nbsp;·&nbsp; [🎬 Motion Simulation](#-motion-simulation) &nbsp;·&nbsp; [🔧 Physical Assembly](#-physical-assembly) &nbsp;·&nbsp; [🏆 Print Results](#-print-results)
 
 <br>
 
@@ -207,9 +207,7 @@ flowchart LR
 
 <div align="center">
 
-<video src="assets/video/运动仿真.mp4" controls width="92%">
-  <a href="assets/video/运动仿真.mp4">▶ Download motion simulation video</a>
-</video>
+<img src="assets/video/运动仿真%2000_00_00-00_00_30.gif" alt="Motion simulation" width="92%">
 
 <br>
 <sub>Full-machine kinematic simulation · multi-joint trajectory validation</sub>
@@ -278,21 +276,37 @@ flowchart LR
 
 <br>
 
-### 🔧 Assembly
+### 🔧 Physical Assembly
 
 <div align="center">
 
+<i>On-site build sequence — photos ordered from Step 01 to Step 13</i>
+
+<br><br>
+
 <table>
 <tr>
-<td align="center"><img src="assets/assembly/装配过程1.jpg" width="180"><br><sub>Step 01</sub></td>
-<td align="center"><img src="assets/assembly/装配过程2.jpg" width="180"><br><sub>Step 02</sub></td>
-<td align="center"><img src="assets/assembly/装配过程3.jpg" width="180"><br><sub>Step 03</sub></td>
-<td align="center"><img src="assets/assembly/装配过程4.jpg" width="180"><br><sub>Step 04</sub></td>
+<td align="center"><img src="assets/assembly/1.jpg" width="180"><br><sub>Step 01</sub></td>
+<td align="center"><img src="assets/assembly/2.jpg" width="180"><br><sub>Step 02</sub></td>
+<td align="center"><img src="assets/assembly/3.jpg" width="180"><br><sub>Step 03</sub></td>
+<td align="center"><img src="assets/assembly/4.jpg" width="180"><br><sub>Step 04</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/assembly/装配过程5.jpg" width="180"><br><sub>Step 05</sub></td>
-<td align="center"><img src="assets/assembly/装配过程6.jpg" width="180"><br><sub>Step 06</sub></td>
-<td align="center"><img src="assets/assembly/装配过程7.jpg" width="180"><br><sub>Step 07</sub></td>
+<td align="center"><img src="assets/assembly/5.jpg" width="180"><br><sub>Step 05</sub></td>
+<td align="center"><img src="assets/assembly/6.jpg" width="180"><br><sub>Step 06</sub></td>
+<td align="center"><img src="assets/assembly/7.jpg" width="180"><br><sub>Step 07</sub></td>
+<td align="center"><img src="assets/assembly/8.jpg" width="180"><br><sub>Step 08</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/assembly/9.jpg" width="180"><br><sub>Step 09</sub></td>
+<td align="center"><img src="assets/assembly/10.jpg" width="180"><br><sub>Step 10</sub></td>
+<td align="center"><img src="assets/assembly/11.jpg" width="180"><br><sub>Step 11</sub></td>
+<td align="center"><img src="assets/assembly/12.jpg" width="180"><br><sub>Step 12</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/assembly/13.jpg" width="180"><br><sub>Step 13</sub></td>
+<td align="center"></td>
+<td align="center"></td>
 <td align="center"></td>
 </tr>
 </table>
