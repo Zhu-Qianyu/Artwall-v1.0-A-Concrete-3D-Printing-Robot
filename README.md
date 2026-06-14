@@ -27,7 +27,7 @@ Redefining artistic wall construction in high-rise interiors with **SLAM autonom
 <img src="assets/team/合影.jpg" alt="Artwall team photo" width="88%">
 
 <br>
-<sub><i>Wuhan University of Technology Artwall Team · Supervised by Prof. Yin Haibin</i></sub>
+<sub><i>Wuhan University of Technology Aitobot Team · Supervised by Prof. Yin Haibin</i></sub>
 
 </div>
 
