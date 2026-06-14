@@ -438,6 +438,6 @@ Media and documentation in this repository are for **academic exchange and demon
 [![BP](https://img.shields.io/badge/📄-Business_Plan_PDF-blue?style=flat-square)](./BP.pdf)
 
 <br>
-<sub>Made with ❤️ by WHUT Artwall Team · 2024–2025</sub>
+<sub>Made with ❤️ by WHUT Aitebot Studio · 2024–2025</sub>
 
 </div>
